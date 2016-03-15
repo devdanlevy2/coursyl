@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+
+
+function updateCourse(button)
+{
+  button.disabled = true;
+  button.form.submit();
+}
