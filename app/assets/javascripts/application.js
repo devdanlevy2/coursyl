@@ -21,3 +21,9 @@ function updateCourse(button)
   button.disabled = true;
   button.form.submit();
 }
+
+function hideRow()
+{
+  var count = document.querySelectorAll(".association").length
+  document.querySelectorAll(".association")[count - 1].style.display="none";
+}
